@@ -37,6 +37,18 @@ a {
     color: var(--secondarycolor);
 }
 
+.indented{
+    margin-right: 2rem;
+}
+
+.columngroup{
+    display: flex;
+}
+
+.column{
+    flex: 50%;
+}
+
 .body a{
     color: blue;
     padding: 0;
