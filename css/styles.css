@@ -37,8 +37,8 @@ a {
     color: var(--secondarycolor);
 }
 
-.indented{
-    margin-right: 2rem;
+.indent{
+    padding-left: 2em;
 }
 
 .columngroup{
@@ -91,6 +91,11 @@ header{
     position: fixed;
     z-index: 10;
 }
+
+nav img{
+    width: 1em;
+}
+
 .nav-toggle {
     position: absolute !important;
     top: -9999px !important;
@@ -164,6 +169,9 @@ nav a {
 }
 nav a:hover {
     color:var(--quarternarycolor);
+}
+nav a:hover i{
+    color:var(--secondarycolor);
 }
 .nav-toggle:checked ~ nav {
     transform: scale(1,1);
@@ -269,13 +277,18 @@ nav a:hover {
 .headerimage{
     background: url("../Images/NZ-pent-group.jpg");
     text-align: center;
-    height: 75vh;
+    height: 25vh;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
     display: block;
     color: var(--secondarycolor);
-    align-items: baseline;
+    align-items: center
+}
+
+.headerimage img{
+    margin: 2.5vh;
+    height: 20vh;
 }
 .contentimage img{
     width: 40vw;
